@@ -4,7 +4,7 @@ $noOpen = $env:DASHBOARD_NO_OPEN -eq "1"
 
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
 $port = 8765
-$htmlName = "门店运营看板_成品.html"
+$htmlName = "index.html"
 $listener = $null
 for ($tryPort = 8765; $tryPort -le 8785; $tryPort++) {
   try {

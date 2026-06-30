@@ -3,7 +3,7 @@ const path = require('path');
 const XLSX = require('./xlsx.full.min.js');
 
 const root = __dirname;
-const sourcePath = path.join(root, '门店运营看板_成品.html');
+const sourcePath = path.join(root, 'index.html');
 const outputPath = path.join(root, '门店运营看板_发布版_20260629.html');
 let html = fs.readFileSync(sourcePath, 'utf8');
 
